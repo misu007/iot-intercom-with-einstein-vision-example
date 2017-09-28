@@ -30,6 +30,11 @@
 を組み立てる。
 
 ## 動作確認
-Raspberry Pi Sense Hat上のジョイスティックをクリックする。
+1. Salesforceにログインし、画面を開いておく。
 
-Salesforce
+2. Raspberry Piのアプリケーションを起動する。
+`npm start`
+
+3. Raspberry Pi Sense Hat上のジョイスティックをクリックする。
+
+4. Salesforce
