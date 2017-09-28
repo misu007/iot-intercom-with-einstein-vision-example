@@ -7,7 +7,7 @@
 ![アーキテクチャ全体](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img001.png)
 
 ## 準備するもの
-### ハードウェア(呼び鈴)
+###  - ハードウェア(呼び鈴)
 * Raspberry Pi 3 Model B
 * Raspberry Pi カメラモジュール
 * Raspberry Pi Sense Hat
