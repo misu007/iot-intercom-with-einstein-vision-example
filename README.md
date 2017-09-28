@@ -15,12 +15,20 @@
 * Herokuアカウント ※サインアップ ⇒ <https://signup.heroku.com/>
 * Salesforce Developer Edition組織のアカウント　※サインアップ ⇒ <http://developer.salesforce.com/signup>
 
-## インストール
+## セットアップ
 1. Salesforceの設定
+受話器アプリケーションサンプルパッケージをインストール
+<https://login.salesforce.com/------working now------->
+
+
 ユーティリティバー上にLightning Component""を配置する。
 
 
 2. Herokuの設定
+
+Deploy to heroku をクリック。
+
+環境変数を設定。
 
 
 3. Raspberry Piの設定
@@ -28,6 +36,24 @@
 * Raspberry Pi カメラモジュール
 * Raspberry Pi Sense Hat
 を組み立てる。
+
+適当なディレクトリを作成・移動（ここでは、~/nodeとする）
+
+`cd ~/`
+
+`mkdir node`
+
+`cd node`
+
+`git clone https://----------working now--------------`
+
+
+`cd --app name--`
+
+`emacs index.js`
+
+domeinURLを2.で作成したherokuアプリのURLに書き換える。
+
 
 ## 動作確認
 1. Salesforceにログインし、画面を開いておく。
