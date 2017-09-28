@@ -2,7 +2,7 @@
 
 画像認識AI"Einstein Vision"の実装例のサンプルです。 呼び鈴はラズベリーパイで、受話器はSalesforceインターフェース上に、アプリケーションとして構築します。
 
-※Einstein Visionについてはこちら ⇒ <https://metamind.readme.io/v2/docs>
+※Einstein Vision 公式ドキュメント ⇒ <https://metamind.readme.io/v2/docs>
 
 ![アーキテクチャ全体](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img001.png)
 
@@ -12,8 +12,8 @@
 * Raspberry Pi Sense Hat
 
 ## 必要なアカウント
-* Herokuアカウント ※登録はこちら ⇒ <https://signup.heroku.com/>
-* Salesforce Developer Edition組織のアカウント　※登録はこちら ⇒ <http://developer.salesforce.com/signup>
+* Herokuアカウント ※サインアップ ⇒ <https://signup.heroku.com/>
+* Salesforce Developer Edition組織のアカウント　※サインアップ ⇒ <http://developer.salesforce.com/signup>
 
 ## インストール
 1. Salesforceの設定
