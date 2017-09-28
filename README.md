@@ -40,24 +40,18 @@
 を組み立てる。
 
 2. 適当なディレクトリを作成・移動（ここでは、~/nodeとする）
-
-`cd ~/`
-
-`mkdir node`
-
-`cd node`
+`cd ~/`  
+`mkdir node`  
+`cd node`  
 
 3. アプリケーションのインストール
 
-`git clone https://----------working now--------------`
-
-`cd --app name--`
-
-`npm install`
+`git clone https://----------working now--------------`  
+`cd --app name--`  
+`npm install`  
 
 4. domeinURLを2.で作成したherokuアプリのURLに書き換える。
-
-`emacs index.js`
+`emacs index.js`  
 
 
 ## 動作確認
@@ -72,9 +66,8 @@
 
 
 ## 関連リポジトリ
-<https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku>
-
-<https://github.com/misu007/iot-intercom-with-einstein-vision-example-raspberrypi>
+<https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku>  
+<https://github.com/misu007/iot-intercom-with-einstein-vision-example-raspberrypi>  
 
 ## 免責事項
 このサンプルコードは、あくまで機能利用の1例を示すためのものであり、コードの書き方や特定ライブラリの利用を推奨したり、機能提供を保証するものではありません。
