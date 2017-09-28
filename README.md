@@ -38,7 +38,11 @@
   
 1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku/tree/master)をクリック。
 
-2. 環境変数を設定。
+2. アプリ名、環境変数などを設定します。
+* **APP_CLIENT_ID** ⇒ 作成したSalesforce接続アプリケーションの"コンシューマ鍵"
+* **APP_CLIENT_SECRET** ⇒ 作成したSalesforce接続アプリケーションの"コンシューマの秘密"
+* **SALESFORCE_USERNAME** ⇒ Salesforce Developer Edition組織のユーザ名
+* **SALESFORCE_PASSWORD** ⇒ Salesforce Developer Edition組織のパスワード
 
 ### - Salesforce設定
 受話器アプリケーションのパッケージをインストールし、使用するための各種設定をします。  
@@ -47,9 +51,13 @@
 <https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001tyJL>
 
 2. カスタム設定で、Herokuアプリ名を登録します。
+![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img301.png)
+![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img302.png)
+![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img303.png)
 
 3. リモートサイトにherokuアプリのドメインを登録します。
-
+![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img311.png)
+![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img312.png)
 
 ### - Raspberry Piの設定
 呼び鈴として、Raspberry Piと各種部品の組み立て、アプリケーションをインストールします。  
