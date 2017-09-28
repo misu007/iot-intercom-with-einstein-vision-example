@@ -34,8 +34,7 @@
 ### - Salesforce設定
 受話器アプリケーションのパッケージをインストールし、使用するための各種設定をします。  
 
-１. 下記URLにアクセスし、受話器アプリケーションサンプルパッケージをインストールします。  
-<https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001twhl>
+１. 受話器アプリケーションサンプルパッケージをインストールします。 パッケージ ⇒ <https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001twhl>
 
 2. カスタム設定で、Herokuアプリ名を登録します。
 
