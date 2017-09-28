@@ -1,6 +1,6 @@
-# 訪問者を識別するIoTインターホン
+# 訪問者を識別するIoTインターホン powered by Einstein Vision
 
-画像認識AI"Einstein Vision"の実装例のサンプルです。
+画像認識AI"Einstein Vision"の実装例のサンプルです。 呼び鈴はラズベリーパイで、受話器はSalesforceインターフェース上に、アプリケーションとして構築します。
 
 ※Einstein Visionについてはこちら ⇒ <https://metamind.readme.io/v2/docs>
 
