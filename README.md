@@ -12,12 +12,12 @@
 * Raspberry Pi カメラモジュール
 * Raspberry Pi Sense Hat
 
-### アカウント（処理サーバ / 受話器アプリケーション）
+### - アカウント（処理サーバ / 受話器アプリケーション）
 * Herokuアカウント ※サインアップ ⇒ <https://signup.heroku.com/>
 * Salesforce Developer Edition組織のアカウント　※サインアップ ⇒ <http://developer.salesforce.com/signup>
 
 ## セットアップ
-### Salesforceの設定
+### - Salesforce(受話器アプリケーション)の設定
 1.受話器アプリケーションサンプルパッケージをインストール
 <https://login.salesforce.com/------working now------->
 
@@ -26,14 +26,14 @@
 
 3. ....
 
-### Herokuの設定
+### - Heroku(処理サーバ)の設定
 
 1. Deploy to heroku をクリック。
 
 2. 環境変数を設定。
 
 
-###  Raspberry Piの設定
+###  - Raspberry Piの設定
 1. ハードの組み立て
 * Raspberry Pi Model B
 * Raspberry Pi カメラモジュール
