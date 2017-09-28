@@ -17,7 +17,9 @@
 * Salesforce Developer Edition組織のアカウント　※サインアップ ⇒ <http://developer.salesforce.com/signup>
 
 ## セットアップ
-### - Salesforce(受話器アプリケーション)の設定
+### - Salesforceの設定
+受話器アプリケーションのサンプルパッケージをインストールし、有効化するための設定をします。  
+  
 1.受話器アプリケーションサンプルパッケージをインストール
 <https://login.salesforce.com/------working now------->
 
@@ -26,14 +28,17 @@
 
 3. ....
 
-### - Heroku(処理サーバ)の設定
-
+### - Herokuの設定
+呼び鈴と受話器アプリケーションを連携させるためのサーバアプリケーションをインストールします。  
+  
 1. Deploy to heroku をクリック。
 
 2. 環境変数を設定。
 
 
 ### - Raspberry Piの設定
+呼び鈴として、Raspberry Piと各種部品の組み立て、アプリケーションをインストールします。  
+  
 1. ハードの組み立て
 * Raspberry Pi Model B
 * Raspberry Pi カメラモジュール
