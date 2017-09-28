@@ -21,8 +21,17 @@
 外部からSalesforceへアクセスするために、接続アプリケーションを作成します。    
 
 1. 接続アプリケーションを作成します。
+![新規接続アプリケーション](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img101.png)
 
-2. 作成した接続アプリケーションの"コンシューマ鍵"と"コンシューマの秘密"をメモします。
+2. 接続アプリケーション名・メールアドレスなどの必要事項入力し、OAuthを有効化し、保存します。
+![OAuth有効化](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img102.png)
+
+3. 作成した接続アプリケーションの"コンシューマ鍵"と"コンシューマの秘密"をメモし、さらに"Manage"をクリックします。
+![Manageクリック](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img103.png)
+
+4. OAuthポリシーを、"すべてのユーザは自己承認可能"、"IP制限の緩和"に変更して保存します。
+![OAuthポリシー](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img104.png)
+
 
 ### - Herokuの設定
 呼び鈴と受話器アプリケーションを連携させるためのサーバアプリケーションをインストールします。  
