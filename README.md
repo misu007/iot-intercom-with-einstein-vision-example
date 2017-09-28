@@ -4,7 +4,7 @@
 
 ※Einstein Vision 公式ドキュメント ⇒ <https://metamind.readme.io/v2/docs>
 
-![アーキテクチャ全体](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img001.png)
+![アーキテクチャ全体](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img001.png)
 
 ## 準備するもの
 ### - ハードウェア(呼び鈴)
@@ -21,7 +21,7 @@
 外部からSalesforceへアクセスするために、接続アプリケーションを作成します。    
 
 1. 接続アプリケーションを作成します。
-![新規接続アプリケーション](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img101.png)
+![新規接続アプリケーション](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img101.png)
 
 2. 接続アプリケーション名・メールアドレスなどの必要事項入力し、OAuthを有効化し、保存します。
 ![OAuth有効化](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img102.png)
@@ -51,13 +51,13 @@
 <https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001tyJL>
 
 2. カスタム設定で、Herokuアプリ名を登録します。
-![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img301.png)
-![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img302.png)
-![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img303.png)
+![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img301.png)
+![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img302.png)
+![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img303.png)
 
 3. リモートサイトにherokuアプリのドメインを登録します。
-![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img311.png)
-![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img312.png)
+![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img311.png)
+![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img312.png)
 
 ### - Raspberry Piの設定
 呼び鈴として、Raspberry Piと各種部品の組み立て、アプリケーションをインストールします。  
