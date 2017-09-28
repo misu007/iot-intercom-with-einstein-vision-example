@@ -71,6 +71,10 @@
 4. Salesforce
 
 
+## 関連リポジトリ
+<https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku>
+<https://github.com/misu007/iot-intercom-with-einstein-vision-example-raspberrypi>
+
 ## 免責事項
 このサンプルコードは、あくまで機能利用の1例を示すためのものであり、コードの書き方や特定ライブラリの利用を推奨したり、機能提供を保証するものではありません。
 
