@@ -31,7 +31,7 @@
 ### - Herokuの設定
 呼び鈴と受話器アプリケーションを連携させるためのサーバアプリケーションをインストールします。  
   
-1. Deploy to heroku をクリック。
+1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/misu007/iot-intercom-with-einstein-vision-example/tree/master)をクリック。
 
 2. 環境変数を設定。
 
