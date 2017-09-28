@@ -17,19 +17,12 @@
 * Salesforce Developer Edition組織のアカウント　※サインアップ ⇒ <http://developer.salesforce.com/signup>
 
 ## セットアップ
-### - Salesforceの設定
-受話器アプリケーションのサンプルパッケージをインストールし、有効化するための設定をします。  
+### - Salesforce設定
+外部からSalesforceへアクセスするために、接続アプリケーションを作成します。    
 
-1. Salesforce Developer Edition組織にログインします。
+1. 接続アプリケーションを作成します。
 
-
-2. ↓のURLにアクセスし、受話器アプリケーションサンプルパッケージをインストールします。
-<https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001twhl>
-
-
-2. ユーティリティバー上にLightning Component""を配置する。
-
-3. ....
+2. 作成した接続アプリケーションの"コンシューマ鍵"と"コンシューマの秘密"をメモします。
 
 ### - Herokuの設定
 呼び鈴と受話器アプリケーションを連携させるためのサーバアプリケーションをインストールします。  
@@ -37,6 +30,16 @@
 1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku/tree/master)をクリック。
 
 2. 環境変数を設定。
+
+### - Salesforce設定
+受話器アプリケーションのパッケージをインストールし、使用するための各種設定をします。  
+
+１. ↓のURLにアクセスし、受話器アプリケーションサンプルパッケージをインストールします。
+<https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001twhl>
+
+2. カスタム設定で、Herokuアプリ名を登録します。
+
+3. リモートサイトにherokuアプリのドメインを登録します。
 
 
 ### - Raspberry Piの設定
