@@ -9,8 +9,8 @@
 ## 準備するもの
 ### - ハードウェア(呼び鈴)
 * Raspberry Pi 3 Model B
-* Raspberry Pi カメラモジュール
-* Raspberry Pi Sense Hat
+* Raspberry Pi カメラ モジュール
+* Raspberry Pi Sense Hat モジュール
 
 ### - アカウント（処理サーバ / 受話器アプリケーション）
 * Herokuアカウント ※サインアップ ⇒ <https://signup.heroku.com/>
