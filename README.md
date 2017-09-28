@@ -1,7 +1,8 @@
-# iot-intercom-with-einstein-vision-example
-訪問者を識別するIoTインターホン　-　画像認識AI"Einstein Vision"実装例サンプル
+# 訪問者を識別するIoTインターホン
 
-画像認識AI"Einstein Vision"の応用例のサンプルです。
+画像認識AI"Einstein Vision"の実装例のサンプルです。
+
+※Einstein Visionについてはこちら ⇒ <https://metamind.readme.io/v2/docs>
 
 ## 準備するもの
 * Raspberry Pi Model B
@@ -9,8 +10,8 @@
 * Raspberry Pi Sense Hat
 
 ## 必要なアカウント
-* Herokuアカウント
-* Salesforce Developer Edition組織のアカウント
+* Herokuアカウント ※登録はこちら ⇒ <https://signup.heroku.com/>
+* Salesforce Developer Edition組織のアカウント　※登録はこちら ⇒ <http://developer.salesforce.com/signup>
 
 ## インストール
 1. Salesforceの設定
