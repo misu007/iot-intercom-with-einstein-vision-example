@@ -24,7 +24,7 @@
 
 
 2. ↓のURLにアクセスし、受話器アプリケーションサンプルパッケージをインストールします。
-<https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001tvAO>
+<https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001twhl>
 
 
 2. ユーティリティバー上にLightning Component""を配置する。
