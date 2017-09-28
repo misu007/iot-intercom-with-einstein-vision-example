@@ -19,9 +19,12 @@
 ## セットアップ
 ### - Salesforceの設定
 受話器アプリケーションのサンプルパッケージをインストールし、有効化するための設定をします。  
-  
-1.受話器アプリケーションサンプルパッケージをインストール
-<https://login.salesforce.com/------working now------->
+
+1. Salesforce Developer Edition組織にログインします。
+
+
+2. ↓のURLにアクセスし、受話器アプリケーションサンプルパッケージをインストールします。
+<https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001tvAO>
 
 
 2. ユーティリティバー上にLightning Component""を配置する。
