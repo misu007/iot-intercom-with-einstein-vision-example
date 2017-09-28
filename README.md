@@ -73,6 +73,7 @@
 
 ## 関連リポジトリ
 <https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku>
+
 <https://github.com/misu007/iot-intercom-with-einstein-vision-example-raspberrypi>
 
 ## 免責事項
