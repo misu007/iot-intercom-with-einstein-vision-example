@@ -62,36 +62,42 @@ Salesforce Developer Edition組織に受話器アプリケーションのパッ�
 ### (4) Raspberry Pi設定
 呼び鈴として、Raspberry Piと各種部品の組み立て、アプリケーションをインストールします。  
   
-1. ハードの組み立て
-* Raspberry Pi Model B
-* Raspberry Pi カメラモジュール
-* Raspberry Pi Sense Hat
-を組み立てる。
+1. Raspberry Piを組み立て、公式にサポートされているOS"Raspbian"をインストールします。 ※手順は省略
 
-2. 適当なディレクトリを作成・移動（ここでは、~/nodeとする）
+2. 適当なディレクトリを作成・移動（ここでは、~/nodeとする）  
 `cd ~/`  
 `mkdir node`  
 `cd node`  
 
 3. アプリケーションのインストール
-
-`git clone https://----------working now--------------`  
-`cd --app name--`  
+`git clone https://github.com/misu007/iot-intercom-with-einstein-vision-example-raspberrypi.git`  
+`cd iot-intercom-with-einstein-vision-example-raspberrypi`  
 `npm install`  
 
-4. domeinURLを2.で作成したherokuアプリのURLに書き換える。
-`emacs index.js`  
-
+4. **(2) Heroku設定**で作成したHerokuアプリにアクセスするように、一部ソースコードを書き換えます。  
+`emacs index.js`  
+等で**index.js**を開き、7行目のherokuDomainの値を  
+https://[**(2) Heroku設定**で決めたHerokuアプリ名].herokuapp.com  
+に変更し、保存します。
 
 ## 動作確認
-1. Salesforceにログインし、画面を開いておく。
+1. Salesforce Developer Edition組織にログインし、Lightning ExperienceのUIで"インターホン受話器"アプリケーションを開きます。
 
-2. Raspberry Piのアプリケーションを起動する。
+2. Raspberry Piのアプリケーションを起動します。
+`cd ~/node/iot-intercom-with-einstein-vision-example-raspberrypi/` 
 `npm start`
 
-3. Raspberry Pi Sense Hat上のジョイスティックをクリックする。
+3. Raspberry Pi Sense Hat上のジョイスティックをクリックします。
 
-4. Salesforce
+
+4. Salesforce Developer Edition組織の受話器アプリケーションが起動し、カメラ画像、画像認識結果が表示されれば成功です。　※通話機能は実装していません。
+
+## 独自の画像識別機能を追加
+デフォルトでは、Einstein Visionの標準モデルの一つである"GeneralImageClassifier"を利用する設定になっていますが、簡単な設定作業で、独自のカスタムモデルを使用するよう変更可能です。
+
+1. Einstein Visionのカスタムモデルを作成します ※手順省略
+
+2. 作成したHerokuアプリの環境変数"EINSTEIN_MODEL_ID"の値を、作成したカスタムモデルのIDに変更します。
 
 
 ## 関連リポジトリ
