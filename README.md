@@ -48,7 +48,7 @@ Salesforce Developer Edition組織にログインし、外部からSalesforceへ
 Salesforce Developer Edition組織に受話器アプリケーションのパッケージをインストールし、各種設定をし有効化します。  
 
 1. ↓URLへアクセスし、受話器アプリケーションサンプルパッケージをインストールします。 
-<https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001tyJL>
+<https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001tyJQ>
 
 2. カスタム設定で、**(2) Heroku設定**で決めたHerokuアプリ名を登録します。
 ![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img301.png)
