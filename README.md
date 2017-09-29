@@ -17,7 +17,7 @@
 * Salesforce Developer Edition組織のアカウント　※サインアップ ⇒ <http://developer.salesforce.com/signup>
 
 ## セットアップ
-### ① Salesforce設定
+### (1) Salesforce設定
 外部からSalesforceへアクセスするために、接続アプリケーションを作成します。    
 
 1. 接続アプリケーションを作成します。
@@ -33,7 +33,7 @@
 ![OAuthポリシー](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img104.png)
 
 
-### ② Herokuの設定
+### (2) Herokuの設定
 呼び鈴と受話器アプリケーションを連携させるためのサーバアプリケーションをインストールします。  
   
 1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku/tree/master)をクリック。
@@ -44,7 +44,7 @@
 * **SALESFORCE_USERNAME** ⇒ Salesforce Developer Edition組織のユーザ名
 * **SALESFORCE_PASSWORD** ⇒ Salesforce Developer Edition組織のパスワード
 
-### ③ Salesforce設定
+### (3) Salesforce設定
 受話器アプリケーションのパッケージをインストールし、使用するための各種設定をします。  
 
 1. ↓URLへアクセスし、受話器アプリケーションサンプルパッケージをインストールします。 
@@ -59,7 +59,7 @@
 ![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img311.png)
 ![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img312.png)
 
-### ④ Raspberry Piの設定
+### (4) Raspberry Piの設定
 呼び鈴として、Raspberry Piと各種部品の組み立て、アプリケーションをインストールします。  
   
 1. ハードの組み立て
