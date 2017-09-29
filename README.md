@@ -75,9 +75,9 @@ Salesforce Developer Edition組織に受話器アプリケーションのパッ�
 `npm install`  
 
 4. **(2) Heroku設定**で作成したHerokuアプリにアクセスするように、一部ソースコードを書き換えます。  
-`emacs index.js`  
+`emacs index.js`  
 等で**index.js**を開き、7行目のherokuDomainの値を  
-https://[**(2) Heroku設定**で決めたHerokuアプリ名].herokuapp.com  
+`https://[**(2) Heroku設定**で決めたHerokuアプリ名].herokuapp.com`  
 に変更し、保存します。
 
 ## 動作確認
