@@ -17,8 +17,8 @@
 * Salesforce Developer Edition組織のアカウント　※サインアップ ⇒ <http://developer.salesforce.com/signup>
 
 ## セットアップ
-### (1) Salesforce設定
-外部からSalesforceへアクセスするために、接続アプリケーションを作成します。    
+### (1) Salesforce接続アプリケーションの作成
+Salesforce Developer Edition組織にログインし、外部からSalesforceへアクセスするためのSalesforce接続アプリケーションを作成します。    
 
 1. 接続アプリケーションを作成します。
 ![新規接続アプリケーション](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img101.png)
@@ -33,33 +33,33 @@
 ![OAuthポリシー](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img104.png)
 
 
-### (2) Herokuの設定
-呼び鈴と受話器アプリケーションを連携させるためのサーバアプリケーションをインストールします。  
+### (2) Heroku設定
+呼び鈴と受話器アプリケーションを連携させるためのサーバアプリケーションをHeroku上にインストールします。  
   
 1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku/tree/master)をクリック。
 
 2. アプリ名、環境変数などを設定します。
-* **APP_CLIENT_ID** ⇒ 作成したSalesforce接続アプリケーションの"コンシューマ鍵"
-* **APP_CLIENT_SECRET** ⇒ 作成したSalesforce接続アプリケーションの"コンシューマの秘密"
+* **APP_CLIENT_ID** ⇒ **(1) Salesforce接続アプリケーション**で作成したSalesforce接続アプリケーションの"コンシューマ鍵"
+* **APP_CLIENT_SECRET** ⇒ **(1) Salesforce接続アプリケーション**で作成したSalesforce接続アプリケーションの"コンシューマの秘密"
 * **SALESFORCE_USERNAME** ⇒ Salesforce Developer Edition組織のユーザ名
 * **SALESFORCE_PASSWORD** ⇒ Salesforce Developer Edition組織のパスワード
 
 ### (3) Salesforce設定
-受話器アプリケーションのパッケージをインストールし、使用するための各種設定をします。  
+Salesforce Developer Edition組織に受話器アプリケーションのパッケージをインストールし、各種設定をし有効化します。  
 
 1. ↓URLへアクセスし、受話器アプリケーションサンプルパッケージをインストールします。 
 <https://login.salesforce.com/packaging/installPackage.apexp?p0=04t7F000001tyJL>
 
-2. カスタム設定で、Herokuアプリ名を登録します。
+2. カスタム設定で、**(2) Heroku設定**で決めたHerokuアプリ名を登録します。
 ![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img301.png)
 ![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img302.png)
 ![カスタム設定](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img303.png)
 
-3. リモートサイトにherokuアプリのドメインを登録します。
+3. リモートサイトにherokuアプリのドメイン"https://[**(2) Heroku設定**で決めたHerokuアプリ名].herokuapp.com"を登録します。
 ![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img311.png)
 ![リモートサイト](https://github.com/misu007/iot-intercom-with-einstein-vision-example/raw/master/img/img312.png)
 
-### (4) Raspberry Piの設定
+### (4) Raspberry Pi設定
 呼び鈴として、Raspberry Piと各種部品の組み立て、アプリケーションをインストールします。  
   
 1. ハードの組み立て
