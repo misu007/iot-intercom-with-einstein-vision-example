@@ -101,9 +101,9 @@ https://[**(2) Heroku設定**で決めたHerokuアプリ名].herokuapp.com
 
 
 ## 関連リポジトリ
-* Heroku用Node.jsアプリ
+* Heroku用Node.jsアプリ  
 <https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku>  
-* Raspberry Pi用Node.jsアプリ
+* Raspberry Pi用Node.jsアプリ  
 <https://github.com/misu007/iot-intercom-with-einstein-vision-example-raspberrypi>  
 
 ## 免責事項
