@@ -39,8 +39,8 @@ Salesforce Developer Edition組織にログインし、外部からSalesforceへ
 1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/misu007/iot-intercom-with-einstein-vision-example-heroku/tree/master)をクリック。
 
 2. アプリ名、環境変数などを設定します。
-* **APP_CLIENT_ID** ⇒ **(1) Salesforce接続アプリケーション**で作成したSalesforce接続アプリケーションの"コンシューマ鍵"
-* **APP_CLIENT_SECRET** ⇒ **(1) Salesforce接続アプリケーション**で作成したSalesforce接続アプリケーションの"コンシューマの秘密"
+* **APP_CLIENT_ID** ⇒ **(1) Salesforce接続アプリケーション**の3.で取得した"コンシューマ鍵"
+* **APP_CLIENT_SECRET** ⇒ **(1) Salesforce接続アプリケーション**の3.で取得した"コンシューマの秘密"
 * **SALESFORCE_USERNAME** ⇒ Salesforce Developer Edition組織のユーザ名
 * **SALESFORCE_PASSWORD** ⇒ Salesforce Developer Edition組織のパスワード
 
