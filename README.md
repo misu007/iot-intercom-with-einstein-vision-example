@@ -69,7 +69,7 @@ Salesforce Developer Edition組織に受話器アプリケーションのパッ�
 `mkdir node`  
 `cd node`  
 
-3. アプリケーションのインストール
+3. アプリケーションのインストール  
 `git clone https://github.com/misu007/iot-intercom-with-einstein-vision-example-raspberrypi.git`  
 `cd iot-intercom-with-einstein-vision-example-raspberrypi`  
 `npm install`  
@@ -83,7 +83,7 @@ https://[**(2) Heroku設定**で決めたHerokuアプリ名].herokuapp.com
 ## 動作確認
 1. Salesforce Developer Edition組織にログインし、Lightning ExperienceのUIで"インターホン受話器"アプリケーションを開きます。
 
-2. Raspberry Piのアプリケーションを起動します。
+2. Raspberry Piのアプリケーションを起動します。  
 `cd ~/node/iot-intercom-with-einstein-vision-example-raspberrypi/` 
 `npm start`
 
