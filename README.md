@@ -84,8 +84,8 @@ Salesforce Developer Edition組織に受話器アプリケーションのパッ�
 1. Salesforce Developer Edition組織にログインし、Lightning ExperienceのUIで"インターホン受話器"アプリケーションを開きます。
 
 2. Raspberry Piのアプリケーションを起動します。  
-`cd ~/node/iot-intercom-with-einstein-vision-example-raspberrypi/` 
-`npm start`
+`cd ~/node/iot-intercom-with-einstein-vision-example-raspberrypi/`  
+`npm start`  
 
 3. Raspberry Pi Sense Hat上のジョイスティックをクリックします。
 
